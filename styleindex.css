@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ff3333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #ff6666;
+}
+
+main .welcome-section {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+main .welcome-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+main .welcome-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+main .welcome-section .btn {
+    background-color: #ff3333;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+main .welcome-section .btn:hover {
+    background-color: #ff6666;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+img{
+    width:800px;
+    height: 500px;
+    
+}

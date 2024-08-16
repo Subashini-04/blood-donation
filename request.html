@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Blood - Blood Donation Platform</title>
+    <link rel="stylesheet" href="stylerequest.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Blood Donation Platform</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="donate.html">Donate Blood</a></li>
+                <li><a href="request.html">Request Blood</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="request-section">
+            <h2>Request Blood</h2>
+            <p>If you or someone you know needs blood, please fill out the form below. Our community is here to help.</p>
+            
+            <form action="#" method="post" class="request-form">
+                <div class="form-group">
+                    <label for="patient-name">Patient Name:</label>
+                    <input type="text" id="patient-name" name="patient-name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="patient-age">Patient Age:</label>
+                    <input type="number" id="patient-age" name="patient-age" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="blood-type">Blood Type:</label>
+                    <select id="blood-type" name="blood-type" required>
+                        <option value="">Select blood type</option>
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="units">Number of Units Required:</label>
+                    <input type="number" id="units" name="units" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="hospital">Hospital Name:</label>
+                    <input type="text" id="hospital" name="hospital" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-name">Contact Name:</label>
+                    <input type="text" id="contact-name" name="contact-name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-phone">Contact Phone:</label>
+                    <input type="tel" id="contact-phone" name="contact-phone" required>
+                </div>
+
+                <button type="submit" class="btn-primary">Submit Request</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Blood Donation Platform. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
